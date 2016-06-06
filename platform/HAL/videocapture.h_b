@@ -1,0 +1,19 @@
+#ifndef _VIDEO_CAPTURE_H
+#define _VIDEO_CAPTURE_H
+
+#include "imageblock.h"
+
+class CVidCapture
+{
+public:
+	CVidCapture();
+	~CVidCapture();
+	int configure(vidCapParm *pParm);
+	int capture(ImgBlk *img);
+	int startCapture();
+	int stopCapture();
+	
+};
+
+#endif
+

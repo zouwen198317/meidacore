@@ -1,0 +1,24 @@
+
+#include "videocatpure.h"
+
+int CVidCapture::configure(vidCapParm *pParm)
+{
+	return -1;
+}
+
+int CVidCapture::capture(ImgBlk *img)
+{
+	return -1;
+}
+
+int CVidCapture::startCapture()
+{
+	return -1;
+}
+
+int CVidCapture::stopCapture()
+{
+	return -1;
+}
+
+
