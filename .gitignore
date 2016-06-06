@@ -12,10 +12,8 @@
 .*
 *.o
 *.o.*
-*.a
 *.s
 *.ko
-*.so
 *.so.dbg
 *.mod.c
 *.i
@@ -32,7 +30,7 @@ modules.builtin
 *.lzo
 *.patch
 *.gcno
-
+mediacore
 #
 # Top-level generic files
 #
